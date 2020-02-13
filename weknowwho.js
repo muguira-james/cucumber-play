@@ -17,6 +17,9 @@ class WeKnowWho {
     count() {
         return db.length
     }
+    listAll() {
+        return db
+    }
 }
 
 

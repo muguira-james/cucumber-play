@@ -5,6 +5,7 @@ const WeKnowWho = require("../../weknowwho")
 let weknowwho;
 let aName = "James"
 let aContact = "851-0569"
+
 Given('we have a handle to the WeKnowWho func and db', function () {
     weknowwho = new WeKnowWho()
 });

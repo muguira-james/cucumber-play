@@ -10,3 +10,4 @@ Scenario: Add_account failure
 Given we have a handle to the WeKnowWho func and db
 When we add a second user name and contact into addAcct
 Then should be 2 entries in db
+
